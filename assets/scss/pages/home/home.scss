@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
 }
 
 body{
@@ -100,18 +101,18 @@ body{
                     display: inline-block;
                     margin: 0 auto;
                     
-                    .icon-image{
-                        // background-position: center -104px
-                        background: rgba(0, 0, 0, 0) url("../../../img/service-icon.png") no-repeat scroll center 22px;
-                        height: 55px;
-                        position: relative;
-                        width: 55px;
-                        float: left;
-                        -webkit-transition: all 0.5s ease;
-                        -moz-transition: all 0.5s ease;
-                        -o-transition: all 0.5s ease;
-                        transition: all 0.5s ease;
-                    }
+                    // .icon-image{
+                    //     // background-position: center -104px
+                    //     background: rgba(0, 0, 0, 0) url("../../../img/service-icon.png") no-repeat scroll center 22px;
+                    //     height: 55px;
+                    //     position: relative;
+                    //     width: 55px;
+                    //     float: left;
+                    //     -webkit-transition: all 0.5s ease;
+                    //     -moz-transition: all 0.5s ease;
+                    //     -o-transition: all 0.5s ease;
+                    //     transition: all 0.5s ease;
+                    // }
 
                   
                 }
@@ -145,67 +146,67 @@ body{
                 position: relative;
                 
             }
-            .service-list:hover .service-title {color: #f9aa01;}
+            .service-list:hover .service-title, .service-list:hover i {color: #f9aa01;}
            
-            .service-1{
-                   .service-content{
-                    .icon-image{
-                        background-position: center -104px;
-                    }
-                   }
+            // .service-1{
+            //        .service-content{
+            //         .icon-image{
+            //             background-position: center -104px;
+            //         }
+            //        }
                    
 
-                    &:hover .icon-image{
-                        background-position: center 9px;
+            //         &:hover .icon-image{
+            //             background-position: center 9px;
                        
-                    }
+            //         }
                
                
                
-            }
-            .service-2{
+            // }
+            // .service-2{
 
-                .service-content{
-                    text-align: left;
-                    .icon-image{
-                        background-position: center -328px;
-                    }
-                }
+            //     .service-content{
+            //         text-align: left;
+            //         .icon-image{
+            //             background-position: center -328px;
+            //         }
+            //     }
                 
-                &:hover .icon-image{
-                    background-position: center -215px;
+            //     &:hover .icon-image{
+            //         background-position: center -215px;
                    
-                }
-            }
-            .service-3{
+            //     }
+            // }
+            // .service-3{
 
-                .service-content{
-                    text-align: left;
-                    .icon-image{
-                        background-position: center -556px;
-                    }
-                }
+            //     .service-content{
+            //         text-align: left;
+            //         .icon-image{
+            //             background-position: center -556px;
+            //         }
+            //     }
                 
-                &:hover .icon-image{
-                    background-position: center -443px;
+            //     &:hover .icon-image{
+            //         background-position: center -443px;
                    
-                }
-            }
+            //     }
+            // }
             
-            .service-4{
+            // .service-4{
 
-                .service-content{
-                    text-align: left;
-                    .icon-image{
-                        background-position: center -783px;
-                    }
-                }
+            //     .service-content{
+            //         text-align: left;
+            //         .icon-image{
+            //             background-position: center -783px;
+            //         }
+            //     }
                 
-                &:hover .icon-image{
-                    background-position: center -670px;
+            //     &:hover .icon-image{
+            //         background-position: center -670px;
                    
-                }
-            }
+            //     }
+            // }
             
             
         }

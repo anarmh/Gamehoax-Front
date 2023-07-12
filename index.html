@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/scss/pages/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./assets/scss/pages/home/home.css">
@@ -109,8 +112,15 @@
                     </div>
                     <div class="col-3">
                         <div class="header-right">
-                            <a href="" class="wish"><i class="fas fa-heart"></i><sup>0</sup></a>
-                            <a href=""><i class="fas fa-shopping-cart"></i><sup>0</sup></a>
+                            <div class="wishlist">
+                                <a href="" class="wish"><img src="./assets/img/wishlist/icons8-heart-64.png" alt=""> </a>
+                                 <span class="wish-count">(0)</span>
+                            </div>
+                            <div class="basket">
+                                <a href="" class="cart"><img src="./assets/img/cart/icons8-cart-64 (1).png" alt=""> </a>
+                                <span class="cart-count">(0)</span>
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -149,10 +159,10 @@
                         <div class="column-inner">
                             <div class="wp-wrapper">
                                 <div class="service-list service-1 style-1">
-                                    <div class="service-content ">
-                                        <span class="icon-image"></span>
+                                    <div class="service-content d-flex align-items-center">
+                                        <i class="fa-solid fa-truck-fast fs-3"></i>
                                         <div class="content">
-                                            <div class="service-title">
+                                            <div class="service-title ">
                                                 Free Delivery
                                             </div>
                                             <div class="service-other-text">
@@ -168,8 +178,8 @@
                         <div class="column-inner">
                             <div class="wp-wrapper">
                                 <div class="service-list service-2 style-1">
-                                    <div class="service-content">
-                                        <span class="icon-image"> </span>
+                                    <div class="service-content d-flex align-items-center">
+                                        <i class="fa-solid fa-sack-dollar fs-3"></i>
                                         <div class="content">
                                             <div class="service-title">Money Return</div>
                                             <div class="service-other-text">Back Guarantee in 7 days</div>
@@ -183,8 +193,11 @@
                         <div class="column-inner">
                             <div class="wp-wrapper">
                                 <div class="service-list service-3 style-1">
-                                    <div class="service-content">
-                                        <span class="icon-image"> </span>
+                                    <div class="service-content d-flex align-items-center">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-percent fs-3"></i>
+                                        </div>
+                                      
                                         <div class="content">
                                             <div class="service-title">Member Discount</div>
                                             <div class="service-other-text">On every order over $130.00</div>
@@ -198,8 +211,10 @@
                         <div class="column-inner">
                             <div class="wp-wrapper">
                                 <div class="service-list service-4 style-1">
-                                    <div class="service-content">
-                                        <span class="icon-image"> </span>
+                                    <div class="service-content d-flex align-items-center">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-hand-holding-dollar fs-3"></i>
+                                        </div>
                                         <div class="content">
                                             <div class="service-title">Return Policy</div>
                                             <div class="service-other-text">Support 24 hours a day</div>

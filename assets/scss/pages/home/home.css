@@ -1,3 +1,7 @@
+* {
+  font-family: "Oxanium", cursive;
+}
+
 .scroll-ivent {
   width: 100%;
   position: fixed;
@@ -166,28 +170,46 @@
   display: flex;
   float: right;
 }
-#site-header-main .header-right a {
-  color: #a6a6a6;
-  text-decoration: none;
-  display: inline-block;
-}
-#site-header-main .header-right a:hover {
+#site-header-main .header-right span {
+  display: block;
   color: #ffba00;
 }
-#site-header-main .header-right a i {
-  font-size: 20px;
+#site-header-main .header-right .wishlist {
+  padding-right: 10px;
+  display: flex;
 }
-#site-header-main .header-right a sup {
-  font-size: 15px;
+#site-header-main .header-right .wishlist .wish {
+  text-decoration: none;
+  background-color: #1d1427;
+  display: block;
+  width: 30px;
+  height: 30px;
 }
-#site-header-main .header-right .wish {
-  padding-right: 20px;
+#site-header-main .header-right .wishlist .wish img {
+  background-color: #1d1427 !important;
+  width: 100%;
+  height: 100%;
+}
+#site-header-main .header-right .basket {
+  display: flex;
+}
+#site-header-main .header-right .basket .cart {
+  text-decoration: none;
+  background-color: #1d1427;
+  width: 30px;
+  height: 30px;
+}
+#site-header-main .header-right .basket .cart img {
+  background-color: #1d1427 !important;
+  width: 100%;
+  height: 100%;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oxanium", cursive;
 }
 
 body {
@@ -262,14 +284,6 @@ body {
   display: inline-block;
   margin: 0 auto;
 }
-#service-icons .column-inner .wp-wrapper .service-list .service-content .icon-image {
-  background: rgba(0, 0, 0, 0) url("../../../img/service-icon.png") no-repeat scroll center 22px;
-  height: 55px;
-  position: relative;
-  width: 55px;
-  float: left;
-  transition: all 0.5s ease;
-}
 #service-icons .column-inner .wp-wrapper .service-list .content {
   text-align: left;
   overflow: hidden;
@@ -298,41 +312,8 @@ body {
 #service-icons .column-inner .wp-wrapper .service-list.style-1 {
   position: relative;
 }
-#service-icons .column-inner .wp-wrapper .service-list:hover .service-title {
+#service-icons .column-inner .wp-wrapper .service-list:hover .service-title, #service-icons .column-inner .wp-wrapper .service-list:hover i {
   color: #f9aa01;
-}
-#service-icons .column-inner .wp-wrapper .service-1 .service-content .icon-image {
-  background-position: center -104px;
-}
-#service-icons .column-inner .wp-wrapper .service-1:hover .icon-image {
-  background-position: center 9px;
-}
-#service-icons .column-inner .wp-wrapper .service-2 .service-content {
-  text-align: left;
-}
-#service-icons .column-inner .wp-wrapper .service-2 .service-content .icon-image {
-  background-position: center -328px;
-}
-#service-icons .column-inner .wp-wrapper .service-2:hover .icon-image {
-  background-position: center -215px;
-}
-#service-icons .column-inner .wp-wrapper .service-3 .service-content {
-  text-align: left;
-}
-#service-icons .column-inner .wp-wrapper .service-3 .service-content .icon-image {
-  background-position: center -556px;
-}
-#service-icons .column-inner .wp-wrapper .service-3:hover .icon-image {
-  background-position: center -443px;
-}
-#service-icons .column-inner .wp-wrapper .service-4 .service-content {
-  text-align: left;
-}
-#service-icons .column-inner .wp-wrapper .service-4 .service-content .icon-image {
-  background-position: center -783px;
-}
-#service-icons .column-inner .wp-wrapper .service-4:hover .icon-image {
-  background-position: center -670px;
 }
 
 #most-popular .theme-container::before {
