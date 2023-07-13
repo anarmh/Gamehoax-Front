@@ -586,6 +586,44 @@ body {
   position: relative;
   background-color: #170f1f;
 }
+#our-products .swiper .swiper-slide .card-carousel .percent {
+  width: auto;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  top: 15px;
+  z-index: 1;
+  color: #000000;
+  background: #f9aa01;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  padding: 0px;
+  transition: all 500ms ease 0s;
+}
+#our-products .swiper .swiper-slide .card-carousel .percent::before {
+  content: "";
+  border-right: 0px solid #f9aa01;
+  border-bottom: 20px solid #f9aa01;
+  border-left: 12px solid transparent;
+  border-top: 12px solid transparent;
+  position: absolute;
+  left: -12px;
+  top: -12px;
+}
+#our-products .swiper .swiper-slide .card-carousel .percent::after {
+  content: "";
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 0px solid #f9aa01;
+  border-top: 20px solid #f9aa01;
+  position: absolute;
+  right: -12px;
+  top: 0px;
+}
 #our-products .swiper .swiper-slide .card-carousel:hover .main {
   display: none;
   transition: all 1s ease;
