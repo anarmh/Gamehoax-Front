@@ -20,6 +20,20 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+var swiper = new Swiper(".swiper-carousel", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
 
 $(document).ready(function() {
   $(".nav-item").click(function(event) {
@@ -49,21 +63,35 @@ $(document).ready(function() {
     
 
 
-      $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
+      
+  let menues = $("#our-products .tab-item .tab-title ");
+
+  menues.on("click", function(e) {
+    e.preventDefault();
+    $(".active-menu").removeClass("active-menu");
+    $(this).addClass("active-menu");
+  
+    let id = $(this).data("id");
+    $(".item").addClass("d-none");
+    $(`.item[data-id=${id}]`).removeClass("d-none").slick("setPosition");
+  });
+ 
+
+    //   $('.owl-carousel').owlCarousel({
+    //     loop:true,
+    //     margin:10,
+    //     nav:true,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         600:{
+    //             items:3
+    //         },
+    //         1000:{
+    //             items:4
+    //         }
+    //     }
+    // })
 
 });
