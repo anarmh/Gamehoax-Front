@@ -20,7 +20,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-var swiper = new Swiper(".swiper-carousel", {
+
+var swiperCarousel = new Swiper(".swiper-carousel", {
   slidesPerView: 4,
   spaceBetween: 30,
  
@@ -30,7 +31,19 @@ var swiper = new Swiper(".swiper-carousel", {
   },
 });
 
-var swiper = new Swiper(".testmonial", {
+
+   
+var swiperDealOfTheDay = new Swiper(".dealOfTheDay", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+ 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiperTestmonial = new Swiper(".testmonial", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -98,16 +111,7 @@ $(document).ready(function() {
 
 
     
-    
-    var swiper = new Swiper(".dealOfTheDay", {
-      slidesPerView: 4,
-      spaceBetween: 30,
-     
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
+ 
 
 
 
