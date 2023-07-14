@@ -31,7 +31,7 @@ body{
 }
 
 #slider{
-
+    margin-top: 20px;
     .swiper {
         width: 100%;
         height: 500px;
@@ -400,12 +400,11 @@ body{
 
 
  #our-products{
-
-   
-
-    margin: 20px 0;
+    margin: 50px 0 !important;
+    
     h3{
         color: #ffffff;
+       
     }
 
     .linear{
@@ -678,11 +677,396 @@ body{
         //   }
       }
   
-     
-  
-  
  }
+
+ #testmonials{
+    margin: 20px 0;
+     height:100%;
+    background-image: url("../../../../assets/img/testmonial/parallax.jpg");
+    background-attachment:fixed;
+     background-color: transparent;
+     background-size:cover;
+    background-position: 50% 0;
+   .custom-testmonial{
+    text-align: center;
+    margin: 130px 0 52px;
+
+            
+    .swiper {
+        width: 100%;
+        height: 100%;
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            .testmonial-inner{
+                width: 100%;
+                height: 100%;
+                margin-top: 10px;
+                background: none;
+                .img{
+                    margin: 0 auto;
+                    width: 10%;
+                    height: 10%;
+                    border-radius: 50%;
+                    padding: 2px;
+                    background-color: #f9aa01;
+                    position: relative;
+                    &::after{
+                        content: "";
+                        background: #f9aa01 url("../../../../assets/img/testmonial/quote.png") no-repeat scroll center 8px;
+                        width: 28px;
+                        height: 28px;
+                        position: absolute;
+                        top: 5px;
+                        left: 20px;
+                        display: inline-block;
+                        margin-left: -14px;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                    }
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 50%;
+                      }
+                }
+              
+                .testmonial-text{
+                    margin: 10px 0;
+                    .testimonial-title{
+                        display: inline-block;
+                        span{
+                            color: #ffffff;
+                        }
+                    }
+
+                    .testimonial-designation{
+                        display: inline-block;
+                        span{
+                            color: #f9aa01;
+                        }
+                    }
+                }
+
+            }
+
+            .testimonial-wrapper{
+                background: none;
+                text-align: center;
+                width: 100%;
+                padding: 20px 0px 40px;
+                margin-bottom: 30px;
+                .testimonial-content{
+                    background: none;
+                    margin: 0px;
+                    display: inline-block;
+                    width: auto;
+                    overflow: hidden;
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #bfbfbd;
+                    position: relative;
+                    letter-spacing: .59px;
+                    line-height: 30px;
+                    padding: 0 10%;
+                }
+            }
+
+          
+          }
+
+          
+          .dots{
+             
+            span{
+                
+                background-color: #f9aa01;
+              
+            }
+          
+        }
+      }
+  
+      
+  
+      
+
+   }
+   
+ }
+
+
+
  
+ #deal-of-the-day{
+
+    margin: 30px 0;
+    .title-center{
+        width: 100%;
+        position: relative;
+        padding-bottom: 15px;
+        h3{
+            text-align: center;
+            color: #ffffff;
+        }
+        &::before{
+
+            content: "";
+            border-bottom: 2px solid #f9aa01;
+            position: absolute;
+            width: 54px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+
+    .count-down{
+        width: 100%;
+        position: relative;
+         padding: 10px 0px;
+         font-size: 12px;
+         clear: both;
+         text-align: center;
+         .countbox.hastime{
+            display: inline-block;
+            border: 1px solid #342c3d;
+            margin: 20px 0px 35px;
+            font-family: 'Oxanium', cursive;
+            .timebox{
+                width: 170px;
+                color: #ffffff;
+                position: relative;
+                border-right: 1px solid #2f2736;
+                padding: 20px 10px;
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 0.6px;
+                text-transform: capitalize;
+                display: inline-block;
+                text-align: center;
+                line-height: 20px;
+            }
+          
+         }
+         .countbox strong{ 
+            display: inline-block;
+            font-weight: 400;
+            padding-right: 5px;
+        }
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .card-carousel{
+                 width: 100%;
+                 height: 100%;
+                  position: relative;
+                  background-color: #170f1f;
+
+                  .percent{
+                    width: auto;
+                    text-align: center;
+                    margin: 0;
+                    display: inline-block;
+                    position: absolute;
+                    left: 25px;
+                    top: 15px;
+                    z-index: 1;
+                    color: #000000;
+                    background: #f9aa01;
+                    font-size: 13px;
+                    line-height: 20px;
+                    font-weight: 500;
+                    letter-spacing: 0.3px;
+                    padding: 0px;
+                    -webkit-transition: all 500ms ease 0s;
+                    -moz-transition: all 500ms ease 0s;
+                    -o-transition: all 500ms ease 0s;
+                    transition: all 500ms ease 0s;
+                    &::before{
+                        content: "";
+                        border-right: 0px solid #f9aa01;
+                        border-bottom: 20px solid #f9aa01;
+                        border-left: 12px solid transparent;
+                        border-top: 12px solid transparent;
+                        position: absolute;
+                        left: -12px;
+                        top: -12px;
+                    }
+                    &::after{
+
+                        content: "";
+                        border-right: 12px solid transparent;
+                        border-bottom: 12px solid transparent;
+                        border-left: 0px solid #f9aa01;
+                        border-top: 20px solid #f9aa01;
+                        position: absolute;
+                        right: -12px;
+                        top: 0px;
+                    }
+                  }
+
+                &:hover .main{
+                    display: none;
+                    transition: all 1s ease;
+                }
+                &:hover .hover{
+                    display: block !important;
+                    
+                    transition: all 1s ease;
+                }
+                &:hover  .product-button-outer{
+                    opacity: 1;
+                    height: 7%;
+                    transition: all 0.5s ease;
+                }
+               
+                .action-buttons{
+                    width: 100%;
+                    height: 80%;
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                   
+                }
+               
+                .product-detail{
+                    width: 100%;
+                    height: 20%;
+                    background-color: #170f1f;
+                    //  position: relative;
+                        // bottom: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: center;
+                    .content{
+                       
+                        padding:0 5px;
+                    }
+                    .stars{
+                      
+                        i{
+                            font-size: 12px;
+                        }
+                        .orange{
+                            color: #f9aa01;
+                        }
+                    }
+                    .title{
+                           
+                        span{
+                            color: #ffffff;
+                            font-size: 15px;
+                            &:hover{
+                                color: #f9aa01;
+                            }
+                        }
+                    }
+                    .price{
+                        background-color: #170f1f;
+                            span{
+                                font-size: 15px;
+                            }
+                            .actual-price{
+                                color: #f9aa01;
+                            }
+                            .discount{
+                                text-decoration: line-through !important;
+                                color: #808080;
+                            }
+
+                    }
+                }
+
+                .product-button-outer{
+                  background-color: #170f1f;
+                    position: absolute;
+                    bottom: 0;
+                    height: 0;
+                    width: 100% !important;
+                    
+                    opacity: 0;
+                    display: flex;
+                     justify-content: space-around;
+                     align-items: center;
+                     &::before{
+                        border-top: 1px solid #2f2736;
+                        content: "";
+                        width: 100%;
+                        position: absolute;
+                        top: 0
+                     }
+                    a{
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 33.33%;
+                        height: 100%;
+                        color: #ffffff;
+                         border-right: 1px solid #2f2736;
+                         i{
+                            font-size: 15px;
+                         }
+                         &:last-child{
+                            border: none;
+                         }
+                        
+                        &:hover i{
+                            color: #f9aa01;
+                            font-size: 15px;
+                        }
+                    }
+               
+                      
+                    
+                   
+                }
+            }
+           
+          }
+          .next-prev{
+                color: #f9aa01;
+                display: none;
+          }
+          &:hover .next-prev{
+            display: block;
+          }
+
+        //   .custom-pagination{
+
+        //    span{
+        //        background-color: #f9aa01;
+        //    }
+        //   }
+      }
+ }
 
 
  

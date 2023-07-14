@@ -23,17 +23,19 @@ var swiper = new Swiper(".mySwiper", {
 var swiper = new Swiper(".swiper-carousel", {
   slidesPerView: 4,
   spaceBetween: 30,
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true,
-  // },
+ 
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
 });
 
-
+var swiper = new Swiper(".testmonial", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
 $(document).ready(function() {
   $(".nav-item").click(function(event) {
@@ -94,4 +96,44 @@ $(document).ready(function() {
     //     }
     // })
 
+
+    
+    
+    var swiper = new Swiper(".dealOfTheDay", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+     
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+
+
 });
+
+
+
+var countdownElement = document.querySelector('.countbox.hastime'); 
+var targetDate = new Date(countdownElement.getAttribute('data-time')); 
+
+
+function updateCountdown() {
+  var currentDate = new Date(); 
+  var remainingTime = targetDate - currentDate; 
+
+  if (remainingTime > 0) {
+    var days = Math.floor(remainingTime / (1000 * 60 * 60 * 24)); 
+    var hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
+    var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60)); 
+    var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000); 
+
+    
+    countdownElement.innerHTML = '<span class="timebox day"><span class="timebox-inner"><strong>' + days + '</strong>days</span></span><span class="timebox hour"><span class="timebox-inner"><strong>' + hours + '</strong>hours</span></span><span class="timebox minute"><span class="timebox-inner"><strong>' + minutes + '</strong>mins</span></span><span class="timebox second"><span class="timebox-inner"><strong>' + seconds + '</strong>secs</span></span>';
+  } else {
+    countdownElement.innerHTML = 'Expired'; 
+  }
+}
+
+setInterval(updateCountdown, 1000);
