@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+
+
+footer{
+    background-color: #1d1427;
+    background-image: url("../../../../assets/img/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+
+    #footer-top{
+        padding: 100px 0;
+        
+        h3{
+            color: #ffffff;
+            font-size: 18px;
+            margin: 20px 0;
+            text-transform: capitalize;
+            line-height: 20px;
+            font-weight: 600;
+            letter-spacing: 0.4;
+            background: transparent;
+            border: none;
+            padding-bottom: 20px;
+        }
+
+        ul{
+            padding: 0;
+            list-style: none;
+
+            li{
+
+                padding-bottom: 10px;
+                .content{
+                    display: flex;
+                    
+                    margin-bottom: 5px;
+                    i{
+                        font-size: 15px;
+                        color:#ffba00;
+                    }
+
+                    .contact{
+
+                        padding-left: 10px;
+                        span{
+                            color: #a6a6a6;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+
+                a{
+                    text-decoration: none;
+                    color: #a6a6a6;
+                    font-size: 15px;
+                    font-weight: 600;
+                    &:hover{
+                        color: #ffba00;
+                    }
+                }
+
+              
+            }
+        }
+       
+
+        p{
+            color: #a6a6a6;
+            font-size: 15px;
+            font-weight: 600;
+
+        }
+
+        .tnp-widget{
+           margin: 10px 0;
+           position: relative;
+           display: inline-block;
+           width: 100%;
+
+
+           
+           .tnp-submit{
+            position: relative;
+            width: 45px;
+            height: 45px;
+            font-size: 0;
+            color: #a6a6a6;
+            background-image:url("../../../../assets/img/newsletter.png") ;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            background-position: center 13px;
+            padding: 0;
+            transition: none;
+          
+           
+            }
+
+          
+
+            form{
+
+
+                input{
+                    border: none;
+                    outline: none;
+                    height: 45px;
+                   
+                }
+    
+                .tnp-field{
+                  
+                  vertical-align: top;
+                  margin-left: 0;
+                  display: inline-block;
+                  width: 100%;
+    
+                  .tnp-email{
+                    color: #858588;
+                    cursor: text;
+                    margin: 0;
+                    padding: 11px 45px 11px 15px;
+                    width: 100%;
+                    min-width: 200px;
+                    background-color: #ffffff;
+                  }
+                   
+                }
+               
+                .tnp-field-button{
+    
+                    width: auto;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+        }
+      
+       
+    }
+
+
+}

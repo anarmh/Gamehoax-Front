@@ -50,6 +50,31 @@ var swiperTestmonial = new Swiper(".testmonial", {
   },
 });
 
+
+var swiperBlog = new Swiper(".blog", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+ 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiperBrand= new Swiper(".brand", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+ 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+});
+
 $(document).ready(function() {
   $(".nav-item").click(function(event) {
     event.preventDefault();
