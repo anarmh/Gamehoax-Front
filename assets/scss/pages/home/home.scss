@@ -2,6 +2,97 @@
 @import "../layout/footer";
 
 
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    #service-icons{
+
+        .service-1,.service-2,.service-3,.service-4{
+ 
+             margin-top: 20px !important;
+ 
+        }
+     }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+
+    #service-icons{
+
+       .service-3,.service-4{
+
+            margin-top: 20px !important;
+
+       }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+
+    #service-icons{
+
+        .service-list.style-1{
+            width: 100%;
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            position: relative !important;
+            &::after {
+                display: none !important;
+            }
+           
+
+            .service-content{
+                display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+                
+                 
+                .icon{
+
+                    
+                    i{
+                        font-size: 25px !important;
+                    }
+
+                   
+                }
+
+                .content{
+                    padding-top: 10px !important;
+                    .service-title{
+                        text-align: center;
+                        font-size: 12px !important;
+                    }
+
+                    .service-other-text{
+                        text-align: center;
+                        font-size: 12px !important;
+                    }
+                }
+             }
+        }
+
+       
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+
+ }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { 
+
+ }
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
 *{
     margin: 0;
     padding: 0;
@@ -105,7 +196,15 @@ body{
                     display: inline-block;
                     margin: 0 auto !important;
                     
-                    
+                    .icon{
+
+                        i{
+                            color: #ffffff;
+                            &:hover {
+                                color: #f9aa01;
+                            }
+                        }
+                    }
                     .content{
                         text-align: left;
                         overflow: hidden;

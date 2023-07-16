@@ -193,8 +193,28 @@
                         color: #ffffff !important;
                        
                 }
+                .offcanvas-start{
+
+                    width: 200px !important;
+                }
                 .offcanvas-body{
                     background-color: #1d1427 !important;
+
+                    ul{
+                        padding: 0;
+                        list-style:  none;
+                        li{
+                            padding-bottom: 10px;
+                            a{
+                                text-decoration: none;
+                                color: #ffffff;
+                                &:hover{
+                                    color: #ffba00;
+                                    border-bottom: 1px solid #ffba00;
+                                }
+                            }
+                        }
+                    }
                 }
                 .offcanvas-header{
                     background-color: #1d1427 !important;
@@ -202,6 +222,8 @@
                     .btn-close{
                          background-color: #ffffff !important;
                         color: #ffffff !important;
+                        width: 8px !important;
+                        height: 8px !important;
                     }
                 }
             }
@@ -249,6 +271,29 @@
                         color:#ffba00;
                     }
                 }
+            }
+        }
+
+        .header-right{
+
+            .image-count{
+
+                a{
+                    width: 20px !important;
+                    height: 20px !important;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                     }
+                }
+               
+                 
+            }
+
+            span{
+
+                font-size: 10px;
             }
         }
     }
