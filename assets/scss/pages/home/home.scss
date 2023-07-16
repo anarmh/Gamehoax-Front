@@ -1121,13 +1121,48 @@ body{
                 .action-buttons{
                     width: 100%;
                     height: 80%;
+                    position: relative;
+                    &:hover .link{
+                        opacity: 1;
+                    }
                     img {
                         display: block;
                         width: 100%;
                         height: 100%;
                         object-fit: cover;
                     }
+                   .link{
+                    position: absolute;
+                    width: 10%;
+                    height: 15%;
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border: 1px solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // -webkit-transform: scale(1);
+                    opacity: 0;
+                        &:hover{
+                            background-color: #f9aa01;
+                            border: none;
+                        }
+                        &:hover a{
+                            color: #1d1427;
+                        }
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            color: #ffffff;
+                            i{
+                                font-size: 12px;
+                                
+                            }
+                        }
                    
+                   }
                 }
                
                .post-content-inner{
