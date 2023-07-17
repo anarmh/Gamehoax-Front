@@ -162,7 +162,9 @@
                                 </a>
                                 <span class="shop"> » Shop</span>
                             </div>
-
+                            <div class="title">
+                                <h3>Shop</h3>
+                            </div>
                            
                         </div>
                     </div>
@@ -201,18 +203,20 @@
                                 <h3 class="widget-title">Filter by price</h3>
                             </div>
                             <form method="get" action="">
-                                <div class="price_slider_wrapper toggle-block">
-                                    <div class="price_slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content" ><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%; width: 100%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span></div>
-                                    <div class="price_slider_amount" data-step="10">
-                                        <input type="text" id="min_price" name="min_price" value="70" data-min="70" placeholder="Min price" style="display: none;">
-                                        <input type="text" id="max_price" name="max_price" value="160" data-max="160" placeholder="Max price" style="display: none;">
-                                                    <button type="submit" class="button">Filter</button>
-                                        <div class="price_label" >
-                                            Price: <span class="from">£70</span> — <span class="to">£160</span>
-                                        </div>
-                                                    <div class="clear"></div>
-                                    </div>
+                                <div class="range-slider">
+                                    <input type="range" class="min-price" value="70" min="10" max="200"
+                                        step="10" style="accent-color: #ffba00;">
+                                    <input type="range" class="max-price" value="160" min="10" max="200"
+                                        step="10" style="accent-color: #ffba00;">
                                 </div>
+                                <div class="button">
+                                    <button type="submit" >Filter</button>
+                                </div>
+                                
+                                <div class="price_label" >
+                                    Price: <span class="from">£70</span> — <span class="to">£160</span>
+                                </div>
+                               
                             </form>
                         </aside>
                         <aside id="product-tag">
@@ -235,8 +239,113 @@
                                 <a href="">Viverra</a>
                             </div>
                         </aside>
+                        <aside id="top-rated-products">
+                            <div class="title-outer">
+                                <h3 class="widget-title">Top Rated Products</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <div class="content">
+                                            <div class="left">
+                                                <img src="./assets/img/product/6.jpg" alt="" >
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <span>LEGO Builder's Journey</span>
+                                                </div>
+                                                   
+                                                    <div class="stars">
+                                                        <i class="fa-solid fa-star orange"></i>
+                                                        <i class="fa-solid fa-star orange"></i>
+                                                        <i class="fa-solid fa-star orange"></i>
+                                                        <i class="fa-solid fa-star orange"></i>
+                                                        <i class="fa-solid fa-star orange"></i>
+                                                    </div>
+                                                    <div class="amount">
+                                                        <span>£<span class="price">98.00</span></span>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                      
+                                     </a>
+                                 </li>
+                                <li><a href="">
+                                    <div class="content">
+                                        <div class="left">
+                                            <img src="./assets/img/product/4.jpg" alt="" >
+                                        </div>
+                                        <div class="right">
+                                            <div class="title">
+                                                <span>Legend of Musical light</span>
+                                            </div>
+                                               
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                </div>
+                                                <div class="amount">
+                                                    <span>£<span class="price">100.00</span></span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+
+                                    <div class="content">
+                                        <div class="left">
+                                            <img src="./assets/img/product/11.jpg" alt="" >
+                                        </div>
+                                        <div class="right">
+                                            <div class="title">
+                                                <span>The Little Tank Hunter</span>
+                                            </div>
+                                               
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star orange"></i>
+                                                    <i class="fa-solid fa-star "></i>
+                                                </div>
+                                                <div class="amount">
+                                                    <span>£<span class="price">60.00</span></span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </aside>
+
+                        <aside id="left-banner-widget-2">
+                            <div class="left-banner">
+                                <a href="">
+                                    <img src="./assets/img/shop/left-banner.jpg" alt="">
+                                </a>
+                            </div>
+
+                        </aside>
                     </div>
-                    <div class="col-9"></div>
+                    <div class="col-9">
+                            <div class="toolbar">
+                                <div class="left">
+                                    <p>Showing 1–9 of 18 results</p>
+                                </div>
+                                <div class="right">
+                                    <select name="" id="">
+                                        <option value="selected">Default Sorting</option>
+                                        <option value="selected">Sort by popularity</option>
+                                        <option value="selected">Sort by average rating</option>
+                                        <option value="selected">Sort by price: low to high</option>
+                                        <option value="selected">Sort by price: high to low</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                    </div>
                 </div>
             </div>
         </section>
