@@ -75,12 +75,27 @@ var swiperBrand= new Swiper(".brand", {
   },
 });
 
+
+
+
+
 $(document).ready(function() {
-  $(".nav-item").click(function(event) {
-    event.preventDefault();
-    $(".nav-item").removeClass("active-nav");
-    $(this).addClass("active-nav");
-  });
+  // var navItems = $('.nav-main');
+   
+  // navItems.removeClass('active-nav');
+  
+  // var activePage = window.location.href;
+ 
+  // navItems.each(function() {
+  //   var link = $(this).attr('href');
+  
+  //   if (link === activePage) {
+     
+  //     $(this).addClass('active-nav');
+  //   }
+  // });
+
+
 
 
  
@@ -116,29 +131,6 @@ $(document).ready(function() {
     $(`.item[data-id=${id}]`).removeClass("d-none").slick("setPosition");
   });
  
-
-    //   $('.owl-carousel').owlCarousel({
-    //     loop:true,
-    //     margin:10,
-    //     nav:true,
-    //     responsive:{
-    //         0:{
-    //             items:1
-    //         },
-    //         600:{
-    //             items:3
-    //         },
-    //         1000:{
-    //             items:4
-    //         }
-    //     }
-    // })
-
-
-    
- 
-
-
 
 });
 

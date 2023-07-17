@@ -389,7 +389,10 @@
 
 
 
-
+.active-nav{
+    border-bottom:1px solid #ffba00 !important;
+    color:#ffba00 !important;
+}
 
 
 *{
@@ -399,7 +402,10 @@
     font-family: 'Oxanium', cursive;
 }
 
-
+.active-nav{
+    border-bottom:1px solid #ffba00 !important;
+    color:#ffba00 !important;
+}
 .scroll-ivent{
     width: 100%;
     position: fixed;
@@ -600,10 +606,7 @@
                         color:#ffba00;
                     }
                 }
-                .active-nav{
-                    border-bottom:1px solid #ffba00;
-                    color:#ffba00;
-                }
+                
             }
         }
     }

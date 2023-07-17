@@ -257,11 +257,21 @@
     color: #ffba00;
   }
 }
+.active-nav {
+  border-bottom: 1px solid #ffba00 !important;
+  color: #ffba00 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Oxanium", cursive;
+}
+
+.active-nav {
+  border-bottom: 1px solid #ffba00 !important;
+  color: #ffba00 !important;
 }
 
 .scroll-ivent {
@@ -421,10 +431,6 @@
   font-weight: 500;
 }
 #site-header-main .header-center ul li a:hover {
-  color: #ffba00;
-}
-#site-header-main .header-center ul li .active-nav {
-  border-bottom: 1px solid #ffba00;
   color: #ffba00;
 }
 #site-header-main .header-right {
@@ -2398,6 +2404,7 @@ footer .backtotop #to-top:hover::after {
     height: 100%;
     position: relative;
     background-color: #170f1f;
+    border: none;
   }
   #blog .swiper .swiper-slide .card-carousel .action-buttons {
     width: 100%;
