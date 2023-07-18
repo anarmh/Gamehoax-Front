@@ -8,31 +8,6 @@
 
 $(document).ready(function(){
 
-    // var navItems = $('.nav-main');
-  
-   
-    // navItems.removeClass('active-nav');
-    
-    
-    // var activePage = window.location.href;
-    
-   
-    // navItems.each(function() {
-    //   var link = $(this).attr('href');
-    
-    //   if (link === activePage) {
-       
-    //     $(this).addClass('active-nav');
-    //   }
-    // });
-
-       
-   
-    
-    
-  
-
-
       $(window).scroll(function(){
         var scrollTop = 200;
         

@@ -885,6 +885,9 @@ footer .backtotop #to-top:hover::after {
   #shop .tablet {
     display: none !important;
   }
+  #shop .tablet .col-12 {
+    display: none !important;
+  }
   #shop .tablet .toolbar {
     display: none !important;
     width: 100% !important;
@@ -1095,6 +1098,342 @@ footer .backtotop #to-top:hover::after {
   }
   #shop .tablet .pagination ul li a:hover {
     color: #f9aa01;
+  }
+  #shop .tablet .accordion {
+    margin: 20 0 !important;
+    display: none !important;
+    border: 1px solid #342c3d !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button #product-category {
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer .widget-title {
+    color: #ffffff !important;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #342c3d;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button #product-price {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button #product-tag {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category {
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories {
+    list-style: none;
+    padding: 5px 3px !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li {
+    padding: 3px 17px !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a {
+    text-decoration: none;
+    color: #a6a6a6;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a:hover {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form {
+    display: block !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .range-slider {
+    position: relative !important;
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .min-price[type=range], #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .max-price[type=range] {
+    width: 80% !important;
+    background: transparent !important;
+    position: absolute !important;
+    left: 5%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-thumb {
+    height: 2px !important;
+    width: 2px !important;
+    border-radius: 50% !important;
+    background: #2d2536;
+    cursor: pointer;
+    margin-top: 0px !important;
+    position: relative;
+    z-index: 1;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-runnable-track {
+    width: 100% !important;
+    height: 2px !important;
+    background: #2d2536 !important;
+    border-radius: 3px;
+    border: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button {
+    position: relative !important;
+    left: 5% !important;
+    border: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button {
+    background-color: #23172f !important;
+    padding: 7px 20px !important;
+    color: #ffffff !important;
+    border: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button:hover {
+    color: #ffba00 !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .price_label {
+    padding: 20px;
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud {
+    display: block !important;
+    padding: 10px 15px;
+    border-top: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a {
+    display: inline-block !important;
+    text-transform: capitalize !important;
+    padding: 4px 8px 3px !important;
+    margin: 3px 2px 3px 0 !important;
+    font-size: 13px !important;
+    line-height: 27px;
+    color: #ffffff !important;
+    background-color: #23172f;
+    transition: all 500ms ease 0s;
+    text-decoration: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a:hover {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul {
+    display: block !important;
+    list-style: none;
+    padding: 10px 15px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li {
+    width: 100%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a {
+    text-decoration: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left {
+    width: 35%;
+    height: 35%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left img {
+    width: 100%;
+    height: 100%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span {
+    padding: 0;
+    font-weight: 400;
+    color: #888888;
+    font-size: 15px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span:hover {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right i {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .orange {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right span {
+    color: #ffba00;
+    font-size: 14px;
+  }
+  #shop .tablet #left-banner-widget-2 {
+    display: none !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 20px !important;
+    overflow: hidden;
+    padding: 0px;
+    background: transparent;
+  }
+  #shop .tablet #left-banner-widget-2 .left-banner {
+    display: none !important;
+  }
+  #shop .tablet #left-banner-widget-2 .left-banner img {
+    max-width: 100%;
+  }
+  #shop .tablet .clearfix {
+    display: none !important;
+    width: 100%;
+    height: 20px;
   }
   #shop .mobile {
     display: block !important;
@@ -1314,6 +1653,335 @@ footer .backtotop #to-top:hover::after {
     width: 100%;
     height: 20px;
   }
+  #shop .mobile .accordion {
+    display: block !important;
+    border: 1px solid #342c3d !important;
+    background-color: #170f1f !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingOne .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingOne .accordion-button #product-category {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer .widget-title {
+    color: #ffffff !important;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingTwo .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingTwo .accordion-button #product-price {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingThree .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingThree .accordion-button #product-tag {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingFour .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseOne .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseOne .accordion-body #product-category {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories {
+    list-style: none;
+    padding: 5px 3px !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li {
+    padding: 3px 17px !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a {
+    text-decoration: none;
+    color: #a6a6a6;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a:hover {
+    color: #ffba00;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form {
+    display: block !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .range-slider {
+    position: relative !important;
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .min-price[type=range], #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .max-price[type=range] {
+    width: 80% !important;
+    background: transparent !important;
+    position: absolute !important;
+    left: 5%;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-thumb {
+    height: 2px !important;
+    width: 2px !important;
+    border-radius: 50% !important;
+    background: #2d2536;
+    cursor: pointer;
+    margin-top: 0px !important;
+    position: relative;
+    z-index: 1;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-runnable-track {
+    width: 100% !important;
+    height: 2px !important;
+    background: #2d2536 !important;
+    border-radius: 3px;
+    border: none;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button {
+    position: relative !important;
+    left: 5% !important;
+    border: none;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button {
+    background-color: #23172f !important;
+    padding: 7px 20px !important;
+    color: #ffffff !important;
+    border: none;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button:hover {
+    color: #ffba00 !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .price_label {
+    padding: 20px;
+    color: #ffba00;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseThree .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud {
+    display: block !important;
+    padding: 10px 15px;
+    border-top: none;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a {
+    display: inline-block !important;
+    text-transform: capitalize !important;
+    padding: 4px 8px 3px !important;
+    margin: 3px 2px 3px 0 !important;
+    font-size: 13px !important;
+    line-height: 27px;
+    color: #ffffff !important;
+    background-color: #23172f;
+    transition: all 500ms ease 0s;
+    text-decoration: none !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a:hover {
+    color: #ffba00;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul {
+    display: block !important;
+    list-style: none;
+    padding: 10px 15px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li {
+    width: 100%;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a {
+    text-decoration: none;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left {
+    width: 35%;
+    height: 35%;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left img {
+    width: 100%;
+    height: 100%;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span {
+    padding: 0;
+    font-weight: 400;
+    color: #888888;
+    font-size: 15px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span:hover {
+    color: #ffba00;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right i {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .orange {
+    color: #ffba00;
+  }
+  #shop .mobile .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right span {
+    color: #ffba00;
+    font-size: 14px;
+  }
+  #shop .mobile #left-banner-widget-2 {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 20px !important;
+    overflow: hidden;
+    padding: 0px;
+    background: transparent;
+  }
+  #shop .mobile #left-banner-widget-2 .left-banner img {
+    max-width: 100%;
+  }
 }
 @media (max-width: 991.98px) {
   #main-inner {
@@ -1348,18 +2016,8 @@ footer .backtotop #to-top:hover::after {
     font-size: 25px;
     color: #ffffff;
   }
-  #shop .accordion {
-    border: 1px solid #342c3d !important;
-    background-color: #170f1f !important;
-  }
-  #shop .accordion #panelsStayOpen-headingOne .accordion-button {
-    background-color: #170f1f !important;
-    border: 1px solid #342c3d !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    color: #342c3d !important;
-  }
-  #shop .accordion #panelsStayOpen-headingOne .accordion-button #product-category {
+  #shop #product-category {
+    display: none !important;
     width: 100% !important;
     clear: both;
     list-style: outside none none;
@@ -1368,10 +2026,10 @@ footer .backtotop #to-top:hover::after {
     padding: 0px;
     background: #170f1f;
   }
-  #shop .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer {
+  #shop #product-category .title-outer {
     margin-bottom: 10px;
   }
-  #shop .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer .widget-title {
+  #shop #product-category .title-outer .widget-title {
     color: #ffffff !important;
     margin: 0;
     position: relative;
@@ -1383,315 +2041,12 @@ footer .backtotop #to-top:hover::after {
     margin-bottom: 0px;
     border-bottom: 1px solid #342c3d;
   }
-  #shop .accordion #panelsStayOpen-headingTwo .accordion-button {
-    background-color: #170f1f !important;
-    border: 1px solid #342c3d !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    color: #342c3d !important;
-  }
-  #shop .accordion #panelsStayOpen-headingTwo .accordion-button #product-price {
-    display: block !important;
-    width: 100% !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer {
-    margin-bottom: 10px;
-  }
-  #shop .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer .widget-title {
-    color: #ffffff;
-    margin: 0;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding: 12px 15px;
-    margin-bottom: 0px;
-    border-bottom: none !important;
-  }
-  #shop .accordion #panelsStayOpen-headingThree .accordion-button {
-    background-color: #170f1f !important;
-    border: 1px solid #342c3d !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    color: #342c3d !important;
-  }
-  #shop .accordion #panelsStayOpen-headingThree .accordion-button #product-tag {
-    display: block !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer {
-    margin-bottom: 10px;
-  }
-  #shop .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer .widget-title {
-    color: #ffffff;
-    margin: 0;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding: 12px 15px;
-    margin-bottom: 0px;
-    border-bottom: none !important;
-  }
-  #shop .accordion #panelsStayOpen-headingFour .accordion-button {
-    background-color: #170f1f !important;
-    border: 1px solid #342c3d !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    color: #342c3d !important;
-  }
-  #shop .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products {
-    display: block !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer {
-    margin-bottom: 10px;
-  }
-  #shop .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer .widget-title {
-    color: #ffffff;
-    margin: 0;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding: 12px 15px;
-    margin-bottom: 0px;
-    border-bottom: none !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseOne .accordion-body {
-    padding: 0 !important;
-    background-color: #170f1f !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseOne .accordion-body #product-category {
-    width: 100% !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories {
+  #shop #product-category .product-categories {
     list-style: none;
     padding: 5px 3px !important;
   }
-  #shop .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li {
-    padding: 3px 17px !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a {
-    text-decoration: none;
-    color: #a6a6a6;
-  }
-  #shop .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a:hover {
-    color: #ffba00;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body {
-    padding: 0 !important;
-    background-color: #170f1f !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price {
-    display: block !important;
-    width: 100% !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form {
-    display: block !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .range-slider {
-    position: relative !important;
-    margin-top: 20px !important;
-    padding-bottom: 20px !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .min-price[type=range], #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .max-price[type=range] {
-    width: 80% !important;
-    background: transparent !important;
-    position: absolute !important;
-    left: 5%;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-thumb {
-    height: 2px !important;
-    width: 2px !important;
-    border-radius: 50% !important;
-    background: #2d2536;
-    cursor: pointer;
-    margin-top: 0px !important;
-    position: relative;
-    z-index: 1;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-runnable-track {
-    width: 100% !important;
-    height: 2px !important;
-    background: #2d2536 !important;
-    border-radius: 3px;
-    border: none;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button {
-    position: relative !important;
-    left: 5% !important;
-    border: none;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button {
-    background-color: #23172f !important;
-    padding: 7px 20px !important;
-    color: #ffffff !important;
-    border: none;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button:hover {
-    color: #ffba00 !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .price_label {
-    padding: 20px;
-    color: #ffba00;
-  }
-  #shop .accordion #panelsStayOpen-collapseThree .accordion-body {
-    padding: 0 !important;
-    background-color: #170f1f !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag {
-    display: block !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud {
-    display: block !important;
-    padding: 10px 15px;
-    border-top: none;
-  }
-  #shop .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a {
-    display: inline-block !important;
-    text-transform: capitalize !important;
-    padding: 4px 8px 3px !important;
-    margin: 3px 2px 3px 0 !important;
-    font-size: 13px !important;
-    line-height: 27px;
-    color: #ffffff !important;
-    background-color: #23172f;
-    transition: all 500ms ease 0s;
-    text-decoration: none !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a:hover {
-    color: #ffba00;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body {
-    padding: 0 !important;
-    background-color: #170f1f !important;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products {
-    display: block !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 !important;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul {
-    display: block !important;
-    list-style: none;
-    padding: 10px 15px;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li {
-    width: 100%;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a {
-    text-decoration: none;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left {
-    width: 35%;
-    height: 35%;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left img {
-    width: 100%;
-    height: 100%;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span {
-    padding: 0;
-    font-weight: 400;
-    color: #888888;
-    font-size: 15px;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span:hover {
-    color: #ffba00;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right i {
-    color: #ffffff;
-    font-size: 12px;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .orange {
-    color: #ffba00;
-  }
-  #shop .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right span {
-    color: #ffba00;
-    font-size: 14px;
-  }
-  #shop #product-category {
-    display: block !important;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 0 30px;
-    overflow: hidden;
-    padding: 0px;
-    background: #170f1f;
-  }
-  #shop #product-category .title-outer {
-    margin-bottom: 10px;
-  }
-  #shop #product-category .title-outer .widget-title {
-    color: #ffffff;
-    margin: 0;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding: 12px 15px;
-    margin-bottom: 0px;
-    border-bottom: none !important;
-  }
-  #shop #product-category .product-categories {
-    list-style: none;
-    padding: 12px 15px;
-  }
   #shop #product-category .product-categories li {
-    padding: 3px 0;
+    padding: 3px 17px !important;
   }
   #shop #product-category .product-categories li a {
     text-decoration: none;
@@ -1702,9 +2057,10 @@ footer .backtotop #to-top:hover::after {
   }
   #shop #product-price {
     display: none !important;
+    width: 100% !important;
     clear: both;
     list-style: outside none none;
-    margin: 0 0 30px;
+    margin: 0 !important;
     overflow: hidden;
     padding: 0px;
     background: #170f1f;
@@ -1722,59 +2078,60 @@ footer .backtotop #to-top:hover::after {
     text-transform: capitalize;
     padding: 12px 15px;
     margin-bottom: 0px;
-    border-bottom: 1px solid #342c3d;
+    border-bottom: none !important;
   }
   #shop #product-price form .range-slider {
-    position: relative;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    position: relative !important;
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
   }
   #shop #product-price form input[type=range] {
-    width: 90%;
-    background: transparent;
-    position: absolute;
+    width: 90% !important;
+    background: transparent !important;
+    position: absolute !important;
     left: 5%;
   }
   #shop #product-price form input[type=range]::-webkit-slider-thumb {
-    height: 5px !important;
-    width: 5px !important;
-    border-radius: 50%;
+    height: 10px !important;
+    width: 4px !important;
+    border-radius: 50% !important;
     background: #2d2536;
     cursor: pointer;
-    margin-top: -5px;
+    margin-top: 0px !important;
     position: relative;
     z-index: 1;
   }
   #shop #product-price form input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 4px;
-    background: #2d2536;
-    border-radius: 3px;
+    width: 90% !important;
+    height: 5px !important;
+    background: #2d2536 !important;
+    border-radius: 5px;
     border: none;
+    padding-bottom: 12px;
   }
   #shop #product-price form .button {
-    position: relative;
-    left: 5%;
+    position: relative !important;
+    left: 5% !important;
     border: none;
   }
   #shop #product-price form .button button {
-    background-color: #23172f;
-    padding: 7px 20px;
-    color: #ffffff;
+    background-color: #23172f !important;
+    padding: 7px 20px !important;
+    color: #ffffff !important;
     border: none;
   }
   #shop #product-price form .button button:hover {
-    color: #ffba00;
+    color: #ffba00 !important;
   }
   #shop #product-price form .price_label {
     padding: 20px;
     color: #ffba00;
   }
   #shop #product-tag {
-    display: none;
+    display: none !important;
     clear: both;
     list-style: outside none none;
-    margin: 0 0 30px;
+    margin: 0 !important;
     overflow: hidden;
     padding: 0px;
     background: #170f1f;
@@ -1792,20 +2149,20 @@ footer .backtotop #to-top:hover::after {
     text-transform: capitalize;
     padding: 12px 15px;
     margin-bottom: 0px;
-    border-bottom: 1px solid #342c3d;
+    border-bottom: none !important;
   }
   #shop #product-tag .tagcloud {
     padding: 10px 15px;
     border-top: none;
   }
   #shop #product-tag .tagcloud a {
-    display: inline-block;
-    text-transform: capitalize;
-    padding: 4px 8px 3px;
-    margin: 3px 2px 3px 0;
+    display: inline-block !important;
+    text-transform: capitalize !important;
+    padding: 4px 8px 3px !important;
+    margin: 3px 2px 3px 0 !important;
     font-size: 13px !important;
     line-height: 27px;
-    color: #ffffff;
+    color: #ffffff !important;
     background-color: #23172f;
     transition: all 500ms ease 0s;
     text-decoration: none;
@@ -1906,43 +2263,336 @@ footer .backtotop #to-top:hover::after {
   #shop .col-12 {
     display: block;
   }
-  #shop .toolbar {
-    width: 93% !important;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #shop .toolbar .left {
-    display: flex;
-    justify-content: end;
-    padding-top: 12px;
-  }
-  #shop .toolbar .left p {
-    color: #888888;
-    font-size: 13px !important;
-  }
-  #shop .toolbar .right {
-    display: flex;
-    justify-content: start !important;
-    align-items: center;
-  }
-  #shop .toolbar .right select {
-    height: 30px;
-    float: right;
-    background-color: #1d1427;
-    color: #888888;
-    border: 1px solid #2d2536;
-    font-size: 12px !important;
-  }
-  #shop .toolbar .right select:focus {
-    border-color: #2d2536 !important;
-  }
-  #shop .toolbar .right select option {
-    font-size: 12px !important;
-  }
   #shop .tablet {
     display: block !important;
+  }
+  #shop .tablet .accordion {
+    border: 1px solid #342c3d !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button #product-category {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingOne .accordion-button #product-category .title-outer .widget-title {
+    color: #ffffff !important;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button #product-price {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingTwo .accordion-button #product-price .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button #product-tag {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingThree .accordion-button #product-tag .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button {
+    background-color: #170f1f !important;
+    border: 1px solid #342c3d !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #342c3d !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer {
+    margin-bottom: 10px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-headingFour .accordion-button #top-rated-products .title-outer .widget-title {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories {
+    list-style: none;
+    padding: 5px 3px !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li {
+    padding: 3px 17px !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a {
+    text-decoration: none;
+    color: #a6a6a6;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseOne .accordion-body #product-category .product-categories li a:hover {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price {
+    display: block !important;
+    width: 100% !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form {
+    display: block !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .range-slider {
+    position: relative !important;
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .min-price[type=range], #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .max-price[type=range] {
+    width: 80% !important;
+    background: transparent !important;
+    position: absolute !important;
+    left: 5%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-thumb {
+    height: 2px !important;
+    width: 2px !important;
+    border-radius: 50% !important;
+    background: #2d2536;
+    cursor: pointer;
+    margin-top: 0px !important;
+    position: relative;
+    z-index: 1;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form input[type=range]::-webkit-slider-runnable-track {
+    width: 100% !important;
+    height: 2px !important;
+    background: #2d2536 !important;
+    border-radius: 3px;
+    border: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button {
+    position: relative !important;
+    left: 5% !important;
+    border: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button {
+    background-color: #23172f !important;
+    padding: 7px 20px !important;
+    color: #ffffff !important;
+    border: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .button button:hover {
+    color: #ffba00 !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseTwo .accordion-body #product-price form .price_label {
+    padding: 20px;
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud {
+    display: block !important;
+    padding: 10px 15px;
+    border-top: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a {
+    display: inline-block !important;
+    text-transform: capitalize !important;
+    padding: 4px 8px 3px !important;
+    margin: 3px 2px 3px 0 !important;
+    font-size: 13px !important;
+    line-height: 27px;
+    color: #ffffff !important;
+    background-color: #23172f;
+    transition: all 500ms ease 0s;
+    text-decoration: none !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseThree .accordion-body #product-tag .tagcloud a:hover {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body {
+    padding: 0 !important;
+    background-color: #170f1f !important;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0px;
+    background: #170f1f;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul {
+    display: block !important;
+    list-style: none;
+    padding: 10px 15px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li {
+    width: 100%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a {
+    text-decoration: none;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left {
+    width: 35%;
+    height: 35%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .left img {
+    width: 100%;
+    height: 100%;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span {
+    padding: 0;
+    font-weight: 400;
+    color: #888888;
+    font-size: 15px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .title span:hover {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right i {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right .orange {
+    color: #ffba00;
+  }
+  #shop .tablet .accordion #panelsStayOpen-collapseFour .accordion-body #top-rated-products ul li a .content .right span {
+    color: #ffba00;
+    font-size: 14px;
+  }
+  #shop .tablet #left-banner-widget-2 {
+    display: block !important;
+    clear: both;
+    list-style: outside none none;
+    margin: 20px !important;
+    overflow: hidden;
+    padding: 0px;
+    background: transparent;
+  }
+  #shop .tablet #left-banner-widget-2 .left-banner img {
+    max-width: 100%;
   }
   #shop .clearfix {
     display: block !important;
