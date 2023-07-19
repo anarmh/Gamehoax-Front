@@ -1,15 +1,23 @@
 "use strict"
 
+   
 
 
 
 $(document).ready(function(){
-
+    
+   
 
     $(".xzoom, .xzoom-gallery").xzoom({
-        zoomWidth:500,
+        zoomWidth:"800",
         tint:"#333",
-        Xoffset:15,
+        zoomHeight: "auto",
+        position: "right",
+        smoothScale: 20,
+        defaultScale:1,
+        scroll: false,
+        adaptive: true,
+        Xoffset: 10,
     })
 
     $(window).scroll(function(){
