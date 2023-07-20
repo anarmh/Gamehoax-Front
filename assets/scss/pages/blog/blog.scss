@@ -353,4 +353,126 @@ body{
     }
        
     }
+
+    .post{
+         background-color: #170f1f;
+         padding: 20px;
+      
+        .img{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            &:hover .link{
+                opacity: 1;
+            }
+            img{
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .link{
+                cursor: pointer;
+                position: absolute;
+                width: 10%;
+                height: 15%;
+                border-radius: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: 1px solid #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+              
+
+                    &:hover{
+                        background-color: #f9aa01;
+                        border: none;
+                    }
+                    &:hover a{
+                        color: #1d1427;
+                    }
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #ffffff;
+                        i{
+                            font-size: 12px;
+                            
+                        }
+                    }
+               
+               }
+        }
+    
+        .blog-info{
+           
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            &:hover .blog-icon{
+                color: #f9aa01;
+            }
+            .blog-icon{
+                 margin-bottom: 16px;
+                padding:3px;
+                width: 10%;
+                height: 10%;
+                color: #fff;
+                background: #1d1427;
+                border: 1px solid #342c3d;
+                text-align: center;
+                z-index: 1;
+                    &::before{
+                        content: '\f08d';
+                        font-family: 'FontAwesome';
+                        font-size: 25px;
+                        line-height: 37px;
+                    }
+
+                
+                 
+            }
+
+            .entry-header{
+                  padding: 10px 0;
+                h1{
+                    font-size: 25px;
+                    color: #ffffff;
+                    &:hover{
+                        color: #f9aa01;
+                    }
+                }
+            }
+
+            .other{
+
+                p{
+
+                    font-size: 15px;
+                }
+
+            }
+
+
+            .read-more{
+
+                a{
+                    font-style: italic;
+                    color: #ffba00;
+                    &:hover{
+
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+       
+       
+    }
+
+   
 }
