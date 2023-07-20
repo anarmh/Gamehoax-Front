@@ -1,6 +1,14 @@
 "use strict"
 
+var swiperRelated = new Swiper(".related", {
+    slidesPerView: 4,
+    spaceBetween: 30,
    
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
 
 
@@ -20,6 +28,10 @@ $(document).ready(function(){
         Xoffset: 10,
     })
 
+    
+  
+
+
     $(window).scroll(function(){
       var scrollTop = 200;
       
@@ -36,6 +48,19 @@ $(document).ready(function(){
       $(this).find('.contact-content').toggle();
        });
 
+
+       let menues = $("#tabs li .tab");
+
+     menues.on("click", function(e) {
+    e.preventDefault();
+    $(".active-menu").removeClass("active-menu");
+    $(this).addClass("active-menu");
+  
+    let id = $(this).data("id");
+    $(".item").addClass("d-none");
+    $(`.item[data-id=${id}]`).removeClass("d-none").slick("setPosition");
+  });
+ 
 });
 
 
