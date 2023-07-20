@@ -2704,10 +2704,9 @@ body {
 }
 
 #shop #product-category {
-  width: 100% !important;
   clear: both;
   list-style: outside none none;
-  margin: 0 !important;
+  margin: 0 0 30px;
   overflow: hidden;
   padding: 0px;
   background: #170f1f;
@@ -2716,7 +2715,7 @@ body {
   margin-bottom: 10px;
 }
 #shop #product-category .title-outer .widget-title {
-  color: #ffffff !important;
+  color: #ffffff;
   margin: 0;
   position: relative;
   font-size: 16px;
@@ -2742,11 +2741,9 @@ body {
   color: #ffba00;
 }
 #shop #product-price {
-  display: block !important;
-  width: 100% !important;
   clear: both;
   list-style: outside none none;
-  margin: 0 !important;
+  margin: 0 0 30px;
   overflow: hidden;
   padding: 0px;
   background: #170f1f;
@@ -2764,7 +2761,7 @@ body {
   text-transform: capitalize;
   padding: 12px 15px;
   margin-bottom: 0px;
-  border-bottom: none !important;
+  border-bottom: 1px solid #342c3d;
 }
 #shop #product-price form {
   display: block !important;
@@ -2817,10 +2814,9 @@ body {
   color: #ffba00;
 }
 #shop #product-tag {
-  display: block !important;
   clear: both;
   list-style: outside none none;
-  margin: 0 !important;
+  margin: 0 0 30px;
   overflow: hidden;
   padding: 0px;
   background: #170f1f;
@@ -2838,7 +2834,7 @@ body {
   text-transform: capitalize;
   padding: 12px 15px;
   margin-bottom: 0px;
-  border-bottom: none !important;
+  border-bottom: 1px solid #342c3d;
 }
 #shop #product-tag .tagcloud {
   display: block !important;
