@@ -3717,6 +3717,36 @@ body{
 
        
       }
+
+      .all-blog{
+            width: 100%;
+            margin:20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        .view-all-blogs{
+        
+          
+            a{
+                padding: 10px 20px;
+                display: block;
+                color: #ffffff;
+                text-decoration: none;
+                border: 1px solid #2f2736;
+                border-radius: 5px;
+                background-color: #170f1f;
+                font-weight: 600;
+                &:hover{
+
+                    color: #170f1f;
+                    background-color: #f9aa01;
+                    
+                }
+            }
+    
+          }
+      }
+      
 }
  
 

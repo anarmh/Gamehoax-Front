@@ -79,6 +79,7 @@ var swiperBrand= new Swiper(".brand", {
 
 
 
+
 $(document).ready(function() {
   // var navItems = $('.nav-main');
    

@@ -277,6 +277,47 @@
                 }
             }
 
+            #panelsStayOpen-headingFive{
+                    
+                .accordion-button{
+                    background-color: #170f1f !important; 
+                    border: 1px solid #342c3d !important;
+                    box-shadow: none !important; 
+                    padding: 0 !important;
+                    color: #342c3d !important;
+
+                    #archive{
+                        display: block !important;
+                        width: 100% !important;
+                        clear: both;
+                        
+                        list-style: outside none none;
+                         margin: 0 !important;
+                        overflow: hidden;
+                        padding: 0px;
+                        background: #170f1f;
+                
+                            .title-outer{
+                
+                                margin-bottom: 10px;
+                                .widget-title{
+                                    color: #ffffff !important;
+                                    margin: 0;
+                                    position: relative;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: 400;
+                                    text-transform: capitalize;
+                                    padding: 12px 15px;
+                                    margin-bottom: 0px;
+                                    border-bottom: none !important;
+                                }
+                            }
+                
+                    }
+                }
+                
+            }
         }
     }
     
