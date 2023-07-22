@@ -2,30 +2,53 @@
 
 
 
-$(window).load(function() {
+var swiperAbout = new Swiper(".about", {
+    effect:"fold",
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 
-$('#slider').nivoSlider({
-    effect:'random',
-    slices: 1,
-    boxCols: 8,
-    boxRows: 4,
-    animSpeed: 500,
-    pauseTime: 3000,
-    startSlide: 0,
-    directionNav:true,
-    controlNav:true,
-    controlNavThumbs:false,
-    pauseOnHover:true,
-    manualAdvance:false,
-     prevText:'Prev',
-     nextText:'Next',
-    randomStart:false,
-    beforeChange:function(){},
-    afterChange:function(){},
-    slideshowEnd:function(){},
-    lastSlide:function(){},
-    afterLoad:function(){}
-    
+
+
+$(document).ready(function(){
+   
+
+    $(window).scroll(function(){
+      var scrollTop = 200;
+      
+      if($(window).scrollTop() >= scrollTop){
+          $('#site-header-main').addClass("scroll-ivent" );
+      }
+      else{
+          $('#site-header-main').removeClass("scroll-ivent");  
+      }
+       })
+
+
+       $('.header-contact').click(function() {
+      $(this).find('.contact-content').toggle();
+       });
+
 });
 
+
+
+var toTopButton = document.getElementById("to-top");
+
+window.addEventListener("scroll", function() {
+  if (window.pageYOffset > 500) {
+    toTopButton.style.display = "block";
+  } else {
+    toTopButton.style.display = "none";
+  }
+});
+
+toTopButton.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 });

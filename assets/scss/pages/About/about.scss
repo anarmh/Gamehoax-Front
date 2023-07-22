@@ -56,3 +56,75 @@ body{
         }
     }
 }
+
+
+#about{
+    margin-bottom: 30px;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+      }
+  
+    .swiper-pagination{
+        span{
+            color: #ffba00;
+            background-color: #ffba00;
+        }
+      
+    }
+
+    .about-content{
+
+        h3{
+            color: #ffffff;
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            text-transform: capitalize;
+            padding-bottom: 17px;
+            border-bottom: 2px solid #ffba00;
+            
+        }
+
+        p{
+
+            margin: 20px 0;
+        }
+
+        .text{
+
+            .info{
+
+                margin-top: 10px;
+                i{
+                    color: #ffba00;
+                }
+
+                span{
+
+                    color: #888888;
+                }
+            }
+        }
+    }
+
+
+
+}

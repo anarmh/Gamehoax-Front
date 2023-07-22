@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-   
-    <link rel="stylesheet" href="assets/nivo-slider/themes/default/default.css" type="text/css"  media="screen" />
-    <link rel="stylesheet" href="assets/nivo-slider/nivo-slider.css" type="text/css"  media="screen" />
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/scss/pages/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./assets/scss/pages/About/about.css">
+
 </head>
 <body>
     <header>
@@ -173,21 +176,81 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6">
-                        
-                        <div id="slider" class="nivoSlider"  >
-                        
-                        <img src="./assets/img/blog/4.jpg"  data-thumb="./assets/img/blog/4.jpg" alt="" />
-                        
-                        <img src="./assets/img/blog/3.jpg"  data-thumb="/assets/img/blog/3.jpg" alt="" title="This is an example of a caption" />
-                        
-                        <img src="./assets/img/blog/5.jpg"  data-thumb="./assets/img/blog/5.jpg" alt="" data-transition="slideInLeft" />
-                        
-                        <img src="./assets/img/blog/6.jpg"  data-thumb="./assets/img/blog/6.jpg" alt="" title="#htmlcaption" />
-                        
+
+                        <div class="swiper about">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="./assets/img/blog/3.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/img/blog/4.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/img/blog/5.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/img/blog/6.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide"> 
+                                <img src="./assets/img/blog/7.jpg" alt="">
+                            </div>
+                             
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                       
+                    </div>
+                    <div class="col-6">
+
+                        <div class="about-content">
+                            <h3>Why Choose Us ?</h3>
+                            <p>Our mission is to provide gamers with easy access to information and entertainment. We aim to guide newcomers in the gaming world, helping them become better players, and keep experienced gamers informed with the latest game news and updates.</p>
+                                <div class="text">
+                                    <div class="info">
+                                        <i class="fa fa-circle"></i>
+                                        <span>Our mission is to provide gamers with easy access to information. </span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-circle"></i>
+                                        <span>At Gamer Site, we aspire to create a strong community of gaming enthusiasts. </span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-circle"></i>
+                                        <span>As the Gamer Site team, we take pleasure in sharing our passion.</span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-circle"></i>
+                                        <span> We aim to guide newcomers in the gaming world. </span>
+                                    </div>
+                                </div>
+                     
                         </div>
 
                     </div>
-                    <div class="col-6"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="history">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Codezeel History</h3>
+                    </div>
+                    <div class="col-4">
+                        <div class="service-icon">
+                            <div class="icon">
+                                <i class="fa fa-globe"></i>
+                            </div>
+                            <h5>Easy to Use</h5>
+                            <p>We’ve put a lot of thought in giving you the best possible experience to make your job easier.</p>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
                 </div>
             </div>
         </section>
@@ -283,13 +346,13 @@
         </div>
 
     </footer>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/nivo-slider/jquery.nivo.slider.js"></script>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   
     <script src="https://kit.fontawesome.com/9c6e6ff268.js" crossorigin="anonymous"></script>
-    
+   
     <script src="./assets/js/bootstrap.js"></script>
     <script src="./assets/js/about.js"></script>
    
