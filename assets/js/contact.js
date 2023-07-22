@@ -1,49 +1,6 @@
 "use strict";
 
 
-
-var swiperAbout = new Swiper(".about", {
-    effect:"fold",
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-
-
-  
-var swiperTeamMember= new Swiper(".team-member", {
-    slidesPerView: 4,
-    spaceBetween: 30,
-   
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-  });
-
-
-
-  var swiperBrand= new Swiper(".brand", {
-    slidesPerView: 5,
-    spaceBetween: 30,
-   
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-  });
-
-
 $(document).ready(function(){
    
 
