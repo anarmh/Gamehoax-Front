@@ -116,12 +116,12 @@ body{
 }
 
 #contact{
-    background-color: #170f1f;
+   
     margin: 50px 0;
         
     .contact-us{
-
-        padding: 20px 0;
+        background-color: #170f1f;
+        padding: 20px ;
 
         .line{
         
@@ -224,4 +224,97 @@ body{
         }
     }
  
+}
+
+
+#address{
+        margin: 30px 0;
+    h1{
+        color: #ffffff;
+        font-size: 14px;
+        padding: 15px 0;
+        position: relative;
+        text-transform: initial;
+        margin: 0;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        text-transform: capitalize;
+        line-height: 26px;
+    }
+
+    .address-text-inner{
+        border: 1px solid #342c3d;
+        margin: 0;
+        overflow: hidden;
+
+        .icon{
+
+            background: #170f1f;
+            border-width: 0 1px 0 0;
+            border-color: #342c3d;
+            border-style: solid;
+            float: left;
+            padding: 70px 38px;
+            text-align: center;
+            i{
+
+                transition: all 0.3s ease 0s;
+                -webkit-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                -ms-transition: all 0.3s ease 0s;
+                &:hover{
+
+                    transform: scale(1.25rem);
+                }
+            }
+            .fa{
+                font-size: 22px;
+                color: #f9aa01;
+                width: 20px;
+                margin-right: 5px;
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+               
+            }
+            .fa-map.marker{
+
+                &::before{
+                    content: "\f041";
+                }
+               
+            }
+          
+        }
+
+        .content{
+           
+            overflow: hidden;
+            padding: 10px 20px;
+            overflow-wrap: break-word;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            //  align-items: center;
+            .address-label{
+
+                .title{
+                    color: #ffffff;
+                    font-weight: 600;
+                    font-size: 14px;
+
+                }
+                .desc{
+                    font-size: 14;
+                    color: #888888;
+                }
+               
+            }
+        }
+    }
 }

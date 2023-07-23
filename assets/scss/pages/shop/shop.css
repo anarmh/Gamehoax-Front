@@ -294,41 +294,6 @@
   text-transform: capitalize;
   letter-spacing: 0.5px;
 }
-#topbar-outer .search-bar {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
-#topbar-outer .search-bar .search {
-  width: 50%;
-  background-color: #1d1427;
-  border-radius: 3px;
-  border: 1px solid #342c3d;
-}
-#topbar-outer .search-bar .search input {
-  width: 90%;
-  color: #a6a6a6;
-  outline: none;
-  border-radius: 3px;
-  background-color: #1d1427;
-  border: none;
-}
-#topbar-outer .search-bar .search input::-moz-placeholder {
-  padding-left: 10px;
-}
-#topbar-outer .search-bar .search input::placeholder {
-  padding-left: 10px;
-}
-#topbar-outer .search-bar .search .search-button {
-  background-color: #1d1427;
-  border: none;
-}
-#topbar-outer .search-bar .search .search-button i {
-  color: #a6a6a6;
-}
-#topbar-outer .search-bar .search .search-button i:hover {
-  color: #ffba00;
-}
 #topbar-outer .header-contact {
   position: relative;
   z-index: 3;
@@ -441,6 +406,111 @@
   display: block;
   color: #ffba00;
 }
+#site-header-main .header-right .navbar {
+  padding: 0 5px 0 0;
+}
+#site-header-main .header-right .navbar .search-box {
+  position: relative;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle i {
+  position: absolute;
+  color: #888888;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle i:hover {
+  color: #ffba00;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle i.cancel {
+  opacity: 0;
+  pointer-events: none;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle.active i.cancel {
+  opacity: 1;
+  pointer-events: auto;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle.active i.search {
+  opacity: 0;
+  pointer-events: none;
+}
+#site-header-main .header-right .navbar .search-box .searchToggle.active ~ .search-field {
+  bottom: -74px;
+  opacity: 1;
+  pointer-events: auto;
+}
+#site-header-main .header-right .navbar .search-box .search-field {
+  position: absolute;
+  bottom: -85px;
+  right: 0px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #342c3d;
+  padding: 3px;
+  border-radius: 6px;
+  z-index: 2;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+#site-header-main .header-right .navbar .search-box .search-field::before {
+  content: "";
+  position: absolute;
+  right: 14px;
+  top: -4px;
+  width: 12px;
+  height: 12px;
+  background-color: #342c3d;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+#site-header-main .header-right .navbar .search-box .search-field input {
+  width: 100%;
+  height: 100%;
+  padding: 0 45px 0 15px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #342c3d;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+#site-header-main .header-right .navbar .search-box .search-field i {
+  position: absolute;
+  font-size: 17px;
+  right: 15px;
+  cursor: pointer;
+  color: #888888;
+}
+#site-header-main .header-right .navbar .search-box .search-field i:hover {
+  color: #ffba00;
+}
+#site-header-main .header-right .image-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#site-header-main .header-right .image-count:hover a {
+  color: #ffba00;
+}
+#site-header-main .header-right .image-count:hover span {
+  color: #ffba00;
+}
+#site-header-main .header-right .image-count span {
+  color: #888888;
+}
 #site-header-main .header-right .wishlist {
   padding-right: 10px;
   display: flex;
@@ -449,13 +519,8 @@
   text-decoration: none;
   background-color: #1d1427;
   display: block;
-  width: 30px;
-  height: 30px;
-}
-#site-header-main .header-right .wishlist .wish img {
-  background-color: #1d1427 !important;
-  width: 100%;
-  height: 100%;
+  font-size: 20px;
+  color: #888888;
 }
 #site-header-main .header-right .basket {
   display: flex;
@@ -463,13 +528,8 @@
 #site-header-main .header-right .basket .cart {
   text-decoration: none;
   background-color: #1d1427;
-  width: 30px;
-  height: 30px;
-}
-#site-header-main .header-right .basket .cart img {
-  background-color: #1d1427 !important;
-  width: 100%;
-  height: 100%;
+  font-size: 20px;
+  color: #888888;
 }
 
 @media (max-width: 575.98px) {

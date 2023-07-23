@@ -1,4 +1,16 @@
 "use strict";
+
+let searchToggle=document.querySelector(".searchToggle")
+
+searchToggle.addEventListener("click", function(){
+
+  searchToggle.classList.toggle("active")
+})
+
+
+
+
+
 var swiper = new Swiper(".mySwiper", {
   effect: "cube",
   grabCursor: true,
@@ -81,21 +93,10 @@ var swiperBrand= new Swiper(".brand", {
 
 
 $(document).ready(function() {
-  // var navItems = $('.nav-main');
-   
-  // navItems.removeClass('active-nav');
-  
-  // var activePage = window.location.href;
- 
-  // navItems.each(function() {
-  //   var link = $(this).attr('href');
-  
-  //   if (link === activePage) {
-     
-  //     $(this).addClass('active-nav');
-  //   }
-  // });
 
+  
+
+  
 
 
 
