@@ -2,6 +2,15 @@
 
 
 
+let searchToggle=document.querySelector(".searchToggle")
+
+searchToggle.addEventListener("click", function(){
+
+  searchToggle.classList.toggle("active")
+})
+
+
+
 $(document).ready(function(){
    
 

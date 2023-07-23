@@ -1,6 +1,13 @@
 "use strict";
 
 
+let searchToggle=document.querySelector(".searchToggle")
+
+searchToggle.addEventListener("click", function(){
+
+  searchToggle.classList.toggle("active")
+})
+
 
 var swiperAbout = new Swiper(".about", {
     effect:"fold",

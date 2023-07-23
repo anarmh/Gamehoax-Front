@@ -1,5 +1,16 @@
 "use strict"
 
+
+
+let searchToggle=document.querySelector(".searchToggle")
+
+searchToggle.addEventListener("click", function(){
+
+  searchToggle.classList.toggle("active")
+})
+
+
+
 var swiperRelated = new Swiper(".related", {
     slidesPerView: 4,
     spaceBetween: 30,
