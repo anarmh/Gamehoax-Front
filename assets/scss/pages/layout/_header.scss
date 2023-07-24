@@ -389,7 +389,7 @@
 
 
 
-.active-nav{
+.active{
     border-bottom:1px solid #ffba00 !important;
     color:#ffba00 !important;
 }
@@ -402,10 +402,10 @@
     font-family: 'Oxanium', cursive;
 }
 
-.active-nav{
-    border-bottom:1px solid #ffba00 !important;
-    color:#ffba00 !important;
-}
+// .active-nav{
+//     border-bottom:1px solid #ffba00 !important;
+//     color:#ffba00 !important;
+// }
 .scroll-ivent{
     width: 100%;
     position: fixed;
@@ -525,7 +525,7 @@
  padding: 20px 0 10px 0;
  border-bottom: 1px solid #342c3d;
  background-color: #1d1427;
- z-index: 9;
+ z-index: 99;
 
     .header-left{
         display: flex;

@@ -257,7 +257,7 @@
     color: #ffba00;
   }
 }
-.active-nav {
+.active {
   border-bottom: 1px solid #ffba00 !important;
   color: #ffba00 !important;
 }
@@ -267,11 +267,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Oxanium", cursive;
-}
-
-.active-nav {
-  border-bottom: 1px solid #ffba00 !important;
-  color: #ffba00 !important;
 }
 
 .scroll-ivent {
@@ -359,7 +354,7 @@
   padding: 20px 0 10px 0;
   border-bottom: 1px solid #342c3d;
   background-color: #1d1427;
-  z-index: 9;
+  z-index: 99;
 }
 #site-header-main .header-left {
   display: flex;
@@ -2736,6 +2731,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   color: #888888;
+}
+
+.active {
+  color: #f9aa01;
 }
 
 #main-inner {
