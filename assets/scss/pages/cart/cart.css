@@ -910,6 +910,7 @@ footer .backtotop #to-top:hover::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oxanium", cursive;
 }
 
 body {
@@ -921,142 +922,170 @@ body {
   color: #888888;
 }
 
-.box {
-  position: relative;
-  width: 370px;
-  height: 700px;
-  background: #23242a;
-  border-radius: 50px 5px;
-  overflow: hidden;
+#page-title {
+  margin: 50px 0;
 }
-.box::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 370px;
-  height: 700px;
-  background: linear-gradient(60deg, transparent, #f9aa01, #f9aa01);
-  transform-origin: bottom right;
-  animation: animate 6s linear infinite;
-  animation-delay: -3s;
-}
-.box::after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 370px;
-  height: 700px;
-  background: linear-gradient(60deg, transparent, #1e90ff, #1e90ff);
-  transform-origin: bottom right;
-  animation: animate 6s linear infinite;
-}
-.box form {
-  position: absolute;
-  inset: 2px;
-  border-radius: 50px 5px;
-  background: #1d1427;
-  z-index: 10;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-}
-.box form h2 {
-  color: #f9aa01;
-  font-size: 35px;
-  font-weight: 500;
-  text-align: center;
-}
-.box form .input-box {
-  position: relative;
-  width: 300px;
-  margin-top: 35px;
-}
-.box form .input-box input {
-  width: 100%;
-  position: relative;
-  padding: 20px 10px 10px;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #23242a;
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  z-index: 10;
-}
-.box form .input-box input:valid ~ span, .box form .input-box input:focus ~ span {
-  color: #f9aa01;
-  transform: translateX(-10px) translateY(-30px);
-  font-size: 12px;
-}
-.box form .input-box input:valid ~ i, .box form .input-box input:focus ~ i {
-  height: 44px;
-}
-.box form .input-box span {
-  position: absolute;
-  left: 0;
-  padding: 20px 10px 10px;
-  font-size: 16px;
-  color: #8f8f8f;
-  pointer-events: none;
-  letter-spacing: 0.8px;
-  transition: 0.5s;
-}
-.box form .input-box i {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #f9aa01;
-  border-radius: 4px;
-  transition: 0.5s;
-  pointer-events: none;
-  z-index: 9;
-}
-.box form input[type=submit] {
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background: #f9aa01;
-  padding: 5px;
-  margin-top: 40px;
-  border-radius: 90px;
-  font-weight: 600;
-  cursor: pointer;
-}
-.box form input[type=submit]:active {
-  background: linear-gradient(90deg, transparent, #f9aa01, #1e90ff);
-  opacity: 0.8;
-}
-.box form .links {
+#page-title .page {
   display: flex;
   justify-content: space-between;
 }
-.box form .links a {
-  margin: 25px 0;
-  font-size: 16px;
-  color: #8f8f8f;
+#page-title .page .link a {
   text-decoration: none;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 0 0px;
+  letter-spacing: 0.6px;
 }
-.box form .links a:hover, .box form .links a:nth-child(2) {
-  color: #f9aa01;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
-  text-underline-offset: 5px;
+#page-title .page .link a:hover {
+  color: #ffba00;
 }
-.box form .links a:nth-child(2):hover {
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
-  text-underline-offset: 5px;
+#page-title .page .link .shop {
+  color: #ffffff;
+}
+#page-title .page .title h3 {
+  font-size: 25px;
+  color: #ffffff;
 }
 
-@keyframes animate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}/*# sourceMappingURL=register.css.map */
+#cart table {
+  margin: 0 0 30px;
+  width: 100%;
+  border-collapse: separate;
+  background: #170f1f;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  border: 1px solid #342c3d;
+}
+#cart table th {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 40px;
+  background: #170f1f;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-width: 0 1px 1px 0;
+  border: 1px solid #342c3d;
+}
+#cart table .product-image {
+  min-width: 32px;
+}
+#cart table td {
+  font-weight: normal;
+  vertical-align: middle;
+  text-align: center;
+  border-color: #342c3d !important;
+  padding: 5px 10px !important;
+  border-width: 0 1px 1px 0;
+  border: 1px solid #342c3d;
+}
+#cart table td a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  height: 1em;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  width: 1em;
+  color: #a6a6a6;
+}
+#cart table td a:hover {
+  color: #ffba00;
+}
+#cart table td img {
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+#cart table .product-price span {
+  color: #f9aa01;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}
+#cart table .product-quantity {
+  min-width: 80px;
+}
+#cart table .product-quantity span {
+  font-weight: 600;
+  color: #ffffff;
+}
+#cart table .product-quantity input {
+  background: #170f1f;
+  margin: 0;
+  vertical-align: middle;
+  border: 1px solid #342c3d;
+  text-align: center !important;
+  width: 54px;
+  height: 44px;
+  display: inline;
+  padding: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+}
+#cart table .product-quantity input[type=number]::-webkit-inner-spin-button,
+#cart table .product-quantity input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#cart table .product-quantity .quantity-button {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 35px;
+}
+#cart table .product-quantity .quantity-button button.plus {
+  border-bottom: none;
+  padding: 0px;
+  font-size: 0px;
+  line-height: 22px;
+  height: 22px;
+  width: 35px;
+  display: block;
+  background-color: #170f1f;
+  border: 1px solid #342c3d;
+  color: #ffffff;
+  border-radius: 0px;
+}
+#cart table .product-quantity .quantity-button button.plus::before {
+  content: "\f106";
+  font-family: "FontAwesome";
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+}
+#cart table .product-quantity .quantity-button button.plus:hover {
+  color: #f9aa01;
+}
+#cart table .product-quantity .quantity-button button.minus {
+  padding: 0px;
+  font-size: 0px;
+  line-height: 22px;
+  height: 22px;
+  width: 35px;
+  display: block;
+  background-color: #170f1f;
+  border: 1px solid #342c3d;
+  color: #ffffff;
+  border-radius: 0px;
+}
+#cart table .product-quantity .quantity-button button.minus::before {
+  content: "\f107";
+  font-family: "FontAwesome";
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+}
+#cart table .product-quantity .quantity-button button.minus:hover {
+  color: #f9aa01;
+}
+#cart table .product-subtotal span {
+  color: #f9aa01;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}/*# sourceMappingURL=cart.css.map */
