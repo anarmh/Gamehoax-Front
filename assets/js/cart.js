@@ -15,7 +15,7 @@ $(document).ready(function(){
    
 
     $(window).scroll(function(){
-      var scrollTop = 200;
+      var scrollTop = 100;
       
       if($(window).scrollTop() >= scrollTop){
           $('#site-header-main').addClass("scroll-ivent" );
@@ -37,7 +37,7 @@ $(document).ready(function(){
 var toTopButton = document.getElementById("to-top");
 
 window.addEventListener("scroll", function() {
-  if (window.pageYOffset > 500) {
+  if (window.pageYOffset > 400) {
     toTopButton.style.display = "block";
   } else {
     toTopButton.style.display = "none";
