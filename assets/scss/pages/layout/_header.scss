@@ -163,7 +163,7 @@
                 a{
                     color: #a6a6a6;
                     text-decoration: none;
-                    font-size: 15px !important;
+                    font-size: 12px !important;
                     &:hover{
                         color: #ffba00;
                     }
@@ -275,6 +275,10 @@
         }
 
         .header-right{
+
+            .search-box{
+                padding-top:10px;
+            }
 
             .image-count{
 

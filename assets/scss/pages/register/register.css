@@ -91,7 +91,7 @@
   #topbar-outer .login-register .icons a {
     color: #a6a6a6;
     text-decoration: none;
-    font-size: 15px !important;
+    font-size: 12px !important;
   }
   #topbar-outer .login-register .icons a:hover {
     color: #ffba00;
@@ -180,6 +180,9 @@
   #site-header-main .header-center ul li .active-nav {
     border-bottom: 1px solid #ffba00;
     color: #ffba00;
+  }
+  #site-header-main .header-right .search-box {
+    padding-top: 10px;
   }
   #site-header-main .header-right .image-count a {
     width: 20px !important;
