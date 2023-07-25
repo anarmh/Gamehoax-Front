@@ -346,7 +346,7 @@
 #topbar-outer .login-register .icons a:hover {
   color: #ffba00;
 }
-#topbar-outer .login-register .icons .signIn {
+#topbar-outer .login-register .icons .signUp {
   padding-right: 10px;
 }
 
@@ -359,6 +359,7 @@
 #site-header-main .header-left {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 #site-header-main .header-left a {
   display: inline-block;
@@ -372,6 +373,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 #site-header-main .header-center ul {
   display: flex;
@@ -394,15 +396,13 @@
   color: #ffba00;
 }
 #site-header-main .header-right {
+  height: 100%;
   display: flex;
   float: right;
 }
 #site-header-main .header-right span {
   display: block;
   color: #ffba00;
-}
-#site-header-main .header-right .navbar {
-  padding: 0 5px 0 0;
 }
 #site-header-main .header-right .navbar .search-box {
   position: relative;
@@ -804,7 +804,7 @@ footer #footer-top .tnp-widget .tnp-submit {
   width: 45px;
   height: 45px;
   font-size: 0;
-  color: #a6a6a6;
+  color: #666668;
   background-image: url("../../../../assets/img/newsletter.png");
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -825,7 +825,7 @@ footer #footer-top .tnp-widget form .tnp-field {
   width: 100%;
 }
 footer #footer-top .tnp-widget form .tnp-field .tnp-email {
-  color: #858588;
+  color: #1d1427;
   cursor: text;
   margin: 0;
   padding: 11px 45px 11px 15px;
