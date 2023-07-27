@@ -9,7 +9,19 @@ searchToggle.addEventListener("click", function(){
   searchToggle.classList.toggle("active")
 })
 
+let navlinks=document.querySelectorAll("#site-header-main .header-center ul li a")
+let windowPathname=window.location.pathname;
 
+navlinks.forEach(navlink=>{
+  const navLinkpathname=new URL(navlink.href).pathname;
+  console.log(navLinkpathname);
+    if((windowPathname===navLinkpathname) || (windowPathname=== `/home.html` && navLinkpathname===`/`)){
+      navlink.classList.add(`active`)
+
+    }
+    
+  
+});
 
 
 $(document).ready(function(){
