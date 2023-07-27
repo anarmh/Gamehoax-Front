@@ -8,18 +8,19 @@ searchToggle.addEventListener("click", function(){
 })
 
 
-// let navlinks=document.querySelectorAll("#site-header-main .header-center ul li a")
-// let windowPathname=window.location.pathname;
+let navlinks=document.querySelectorAll("#site-header-main .header-center ul li a")
+let windowPathname=window.location.pathname;
 
-// navlinks.forEach(navlink=>{
-//   const navLinkpathname=new URL(navlink.href).pathname;
-//     if((windowPathname===navLinkpathname) || (windowPathname=== `/home.html` && navLinkpathname===`/`)){
-//       navlink.classList.add(`active`)
+navlinks.forEach(navlink=>{
+  const navLinkpathname=new URL(navlink.href).pathname;
+  console.log(navLinkpathname);
+    if((windowPathname===navLinkpathname) || (windowPathname=== `/home.html` && navLinkpathname===`/`)){
+      navlink.classList.add(`active`)
 
-//     }
+    }
     
   
-// });
+});
 
 var swiper = new Swiper(".mySwiper", {
   effect: "cube",

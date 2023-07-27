@@ -15,7 +15,7 @@ $(document).ready(function(){
    
 
     $(window).scroll(function(){
-      var scrollTop = 100;
+      var scrollTop = 300;
       
       if($(window).scrollTop() >= scrollTop){
           $('#site-header-main').addClass("scroll-ivent" );

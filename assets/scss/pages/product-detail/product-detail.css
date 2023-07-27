@@ -2675,6 +2675,23 @@ body {
 #tabs .review .product-details-frame .review-list {
   list-style: none;
 }
+#tabs .review .product-details-frame .rating-stars ul {
+  list-style-type: none;
+  padding: 0;
+}
+#tabs .review .product-details-frame .rating-stars ul > li.star {
+  display: inline-block;
+}
+#tabs .review .product-details-frame .rating-stars ul > li.star > i.fa {
+  font-size: 25px;
+  color: #ccc;
+}
+#tabs .review .product-details-frame .rating-stars ul > li.star.hover > i.fa {
+  color: #ffcc36;
+}
+#tabs .review .product-details-frame .rating-stars ul > li.star.selected > i.fa {
+  color: #ff912c;
+}
 #tabs .review .product-details-frame:last-child {
   margin-bottom: 0px;
 }

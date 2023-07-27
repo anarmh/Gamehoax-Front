@@ -2417,6 +2417,9 @@ body{
         padding: 40px 40px 20px;
         background: #342c3d;
         border: 1px solid #342c3d;
+
+
+       
         .product-details-frame {
             padding: 50px;
             border-radius: 8px;
@@ -2437,6 +2440,8 @@ body{
                         color: #ffffff;
 
                     }
+
+                   
                 }
 
                 .btn {
@@ -2468,6 +2473,31 @@ body{
             .review-list{
                 list-style: none;
             }
+           
+            .rating-stars {
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    >li.star {
+                        display: inline-block;
+                        >i.fa {
+                            font-size: 25px;
+                            color:  #ccc;
+                        }
+                    }
+                    >li.star.hover {
+                        >i.fa {
+                            color:  #ffcc36;
+                        }
+                    }
+                    >li.star.selected {
+                        >i.fa {
+                            color: #ff912c;
+                        }
+                    }
+                }
+            }
+          
           }
           .product-details-frame:last-child {
             margin-bottom: 0px;
