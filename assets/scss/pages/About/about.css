@@ -909,24 +909,6 @@ footer .backtotop #to-top:hover::after {
     visibility: hidden;
   }
 }
-
-@media (max-width: 575.98px) {
-  #team-member .card-carousel .position, #team-member .card-carousel .description {
-    background-color: transparent !important;
-    background: none !important;
-  }
-    #team-member .swiper .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 50% !important;
-      margin-right: 15px !important;
-      background-color: transparent !important;
-  }
-}
 @media (max-width: 991.98px) {
   #page-title {
     margin: 50px 0;

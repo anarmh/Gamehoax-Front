@@ -5,7 +5,7 @@ let windowPathname=window.location.pathname;
 navlinks.forEach(navlink=>{
   const navLinkpathname=new URL(navlink.href).pathname;
   console.log(navLinkpathname);
-    if((windowPathname===navLinkpathname) || (windowPathname=== `/home.html` && navLinkpathname===`/`)){
+    if((windowPathname===navLinkpathname) || (windowPathname=== `/index.html` && navLinkpathname===`/`)){
       navlink.classList.add(`active`)
 
     }
